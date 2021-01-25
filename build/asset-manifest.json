@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/leaf-and-bee-client/static/css/main.b47f923a.chunk.css",
+    "main.js": "/leaf-and-bee-client/static/js/main.350511cd.chunk.js",
+    "main.js.map": "/leaf-and-bee-client/static/js/main.350511cd.chunk.js.map",
+    "runtime-main.js": "/leaf-and-bee-client/static/js/runtime-main.1ebf1fbe.js",
+    "runtime-main.js.map": "/leaf-and-bee-client/static/js/runtime-main.1ebf1fbe.js.map",
+    "static/js/2.b62ddb3d.chunk.js": "/leaf-and-bee-client/static/js/2.b62ddb3d.chunk.js",
+    "static/js/2.b62ddb3d.chunk.js.map": "/leaf-and-bee-client/static/js/2.b62ddb3d.chunk.js.map",
+    "index.html": "/leaf-and-bee-client/index.html",
+    "static/css/main.b47f923a.chunk.css.map": "/leaf-and-bee-client/static/css/main.b47f923a.chunk.css.map",
+    "static/js/2.b62ddb3d.chunk.js.LICENSE.txt": "/leaf-and-bee-client/static/js/2.b62ddb3d.chunk.js.LICENSE.txt",
+    "static/media/style.min.css": "/leaf-and-bee-client/static/media/newsbackground.7fa5033d.jpg",
+    "static/media/OrangeBee.0e2c9b82.svg": "/leaf-and-bee-client/static/media/OrangeBee.0e2c9b82.svg",
+    "static/media/gardenImage1.d15c20ed.jpg": "/leaf-and-bee-client/static/media/gardenImage1.d15c20ed.jpg",
+    "static/media/gardenImage2.4dd18e0a.jpg": "/leaf-and-bee-client/static/media/gardenImage2.4dd18e0a.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.1ebf1fbe.js",
+    "static/js/2.b62ddb3d.chunk.js",
+    "static/css/main.b47f923a.chunk.css",
+    "static/js/main.350511cd.chunk.js"
+  ]
+}

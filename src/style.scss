@@ -1,0 +1,239 @@
+@import "./variables.scss";
+
+* {
+  box-sizing: border-box;
+  color: $colour3;
+  font-family: $font2;
+  list-style: none;
+  margin: 0;
+  outline: none;
+  text-decoration: none;
+  user-select: none;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: $font1;
+}
+
+.app {
+}
+
+.route {
+  height: 100vh;
+  padding: $banner-height 6% 0 6%;
+  .route-title {
+    font-size: 50px;
+  }
+}
+
+// layout
+.banner {
+  background-color: #738678;
+  display: grid;
+  grid-template-columns: 10% auto;
+  height: $banner-height;
+  padding: $padding1;
+  position: fixed;
+  width: 100vw;
+  .banner-logo-container {
+    img {
+      width: 80px;
+    }
+  }
+  .banner-links-container {
+    padding-top: 21px;
+    .banner-links {
+      display: flex;
+      justify-content: flex-end;
+      .banner-link {
+        font-size: 25px;
+      }
+      .banner-link-dot {
+        margin: 7px 2%;
+      }
+    }
+  }
+}
+
+// routes
+.home {
+  background-blend-mode: screen;
+  background-color: rgba($color: $colour2, $alpha: 0.42);
+  background-image: url("./media/homebackground.jpg");
+  background-size: cover;
+  padding-top: 140px;
+  text-align: center;
+  img {
+    width: 350px;
+  }
+  .home-subtitle {
+    font-size: 42px;
+    margin: 0 auto;
+    width: 580px;
+  }
+}
+
+.services {
+}
+
+.option1 {
+  .services-text {
+    font-size: 21px;
+    text-align: justify;
+    .services-text-line {
+      padding: 6px 0;
+    }
+  }
+  .services-footer {
+    display: grid;
+    grid-template-columns: auto 420px;
+    margin-top: 21px;
+    .services-images {
+      display: flex;
+      flex-wrap: wrap;
+      .services-image {
+        margin: 0 auto;
+        padding: 0 1%;
+        img {
+          width: 420px;
+        }
+      }
+    }
+    .services-quote {
+      padding: 14px 3%;
+      .services-quote-text {
+        font-size: 28px;
+        font-style: italic;
+      }
+      .services-quote-person {
+        font-size: 35px;
+        font-weight: bold;
+        margin-top: 28px;
+        text-align: right;
+      }
+    }
+  }
+}
+.option2 {
+  .services-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    .services-grid-section {
+      min-height: 210px;
+      padding: 12px 2%;
+      .services-grid-section-title {
+        font-size: 35px;
+        font-weight: 800;
+        text-align: center;
+      }
+      .services-grid-section-text {
+        font-size: 18px;
+        padding: 12px 2%;
+        text-align: justify;
+      }
+      img {
+        padding: 12px 2%;
+        width: 100%;
+      }
+      .services-quote-text {
+        font-size: 21px;
+        font-style: italic;
+        padding: 35px 4%;
+      }
+      .services-quote-person {
+        font-size: 28px;
+        font-weight: bold;
+        padding: 28px 4%;
+        text-align: right;
+      }
+    }
+  }
+}
+
+.design {
+  background-image: url("./media/gardenImage3.jpg");
+  background-size: cover;
+  .design-text-container {
+    background-color: $colour2;
+    max-height: 80vh;
+    overflow-y: scroll;
+    padding: 12px 6%;
+    .design-text-intro,
+    .design-text-section-body {
+      font-size: 24px;
+      text-align: justify;
+    }
+    .design-text-section-title {
+      font-size: 35px;
+      padding: 12px 0;
+    }
+    .design-text-section-body {
+      padding: 0 2%;
+    }
+  }
+}
+
+.about {
+  display: grid;
+  grid-template-columns: auto 300px;
+  .about-column {
+    .about-text {
+      font-size: 24px;
+      padding: 12px 2%;
+      text-align: justify;
+    }
+    .testmonial {
+      margin-bottom: 42px;
+      padding: 6px 4% 12px 4%;
+      .testmonial-text {
+        font-size: 24px;
+        font-style: italic;
+      }
+      .person {
+        font-size: 24px;
+        font-weight: bold;
+        float: right;
+      }
+    }
+    .about-column-image {
+      background-color: red;
+      height: 300px;
+      margin-top: 21px;
+      padding: 14px;
+    }
+    .about-column-quote {
+      font-size: 35px;
+      font-style: italic;
+      padding: 14px;
+      .person {
+        font-weight: bold;
+        float: right;
+      }
+    }
+  }
+}
+
+.news {
+  background-blend-mode: screen;
+  background-color: rgba($color: $colour2, $alpha: 0.42);
+  background-image: url("./media/newsbackground.jpg");
+  background-position: center;
+  background-size: cover;
+}
+
+.contact {
+  background-blend-mode: screen;
+  background-color: rgba($color: $colour2, $alpha: 0.42);
+  background-image: url("./media/contactbackground.jpg");
+  background-position: center;
+  background-size: cover;
+}
